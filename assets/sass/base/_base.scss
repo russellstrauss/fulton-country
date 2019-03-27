@@ -1,0 +1,16 @@
+// This project uses inverted triangle CSS architecture (https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
+
+// vendors
+@import '../../vendors/css/bootstrap.min.css';
+@import '../../vendors/css/swiper.min.css';
+@import '../../vendors/css/bootstrap-select.min.css';
+@import '../../vendors/css/pop-up-calendar.min.css';
+@import '../../vendors/css/event-calendar.min.css';
+
+// global
+@import 'vars';
+@import 'responsive';
+@import 'mixins';
+@import 'elements';
+@import 'global';
+@import 'forms';

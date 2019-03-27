@@ -1,0 +1,43 @@
+{
+  "name": "HFE",
+  "version": "1.0.0",
+  "description": "Front end build of HFE theme park properties' public web sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Russell Strauss",
+  "license": "Property of HFE",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0",
+    "babelify": "^9.0.0",
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "node-notifier": "^5.2.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "component-emitter": "^1.2.1",
+    "dateformat": "^3.0.3",
+    "gulp-util": "^3.0.8",
+    "orchestrator": "^0.3.8",
+    "preserve": "^0.2.0",
+    "sequencify": "0.0.7",
+    "true-case-path": "^1.0.3",
+    "urix": "^0.1.0"
+  }
+}

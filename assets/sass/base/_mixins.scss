@@ -1,0 +1,151 @@
+// Fonts
+@mixin set-font($font) {
+	
+	// @if ($font == 'Montserrat') {
+	// 	@include montserrat;
+	// }
+	// @else if ($font == 'Montserrat Semibold') {
+	// 	@include montserrat-semibold;
+	// }
+	// @else if ($font == 'Montserrat Bold') {
+	// 	@include montserrat-bold;
+	// }
+	// @else if ($font == 'Oswald') {
+	// 	@include oswald;
+	// }
+	// @else if ($font == 'Baskerville') {
+	// 	@include baskerville;
+	// }
+	// @else if ($font == 'Baskerville Bold') {
+	// 	@include baskerville-bold;
+	// }
+}
+
+// Cross-browser
+@mixin placeholder-text($color: #979898) {
+	
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+	&::-moz-placeholder {
+		color: $color;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+	&:-moz-placeholder {
+		color: $color;
+	}
+}
+
+@mixin gradient-vertical($color1, $color2) {
+	background: $color2;
+	background: linear-gradient(0deg, $color2 0%, $color1 100%);
+}
+
+// UI
+@mixin button-primary {
+	@include global-solid-button($global-button-primary, $global-button-primary-text);
+}
+
+@mixin button-alternative {
+	@include global-solid-button($global-button-alternative, $global-button-alternative-text);
+}
+
+@mixin global-solid-button($bg-color, $text-color: white) {
+	// @include set-font($global-button-font-family);
+	// background-color: $bg-color;
+	// text-align: center;
+	// font-size: $global-button-font-size;
+	// text-transform: uppercase;
+	// border-radius: 3px;
+	// padding: 15px 25px;
+	// display: inline-block;
+	// transition: background-color 250ms ease;
+	// color: $text-color;
+	// text-decoration: none;
+	// border: 0;
+	// line-height: normal;
+	// cursor: pointer;
+	
+	// &:hover {
+	// 	background-color: darken($bg-color, $global-button-hover-darken-percentage);
+	// 	text-decoration: none;
+	// }
+	
+	// &.center {
+	// 	margin: 0 auto;
+	// 	display: table;
+	// }
+}
+
+// Global styles
+@mixin global-heading-large {
+	
+}
+
+@mixin global-heading-medium {
+	
+}
+
+@mixin global-heading-small {
+	
+}
+
+@mixin global-body {
+	
+}
+
+@mixin card {
+	
+}
+
+// layout
+@mixin aspect-ratio($x, $y) {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	&:after {
+		content: '';
+		display: block;
+		padding-bottom: calc(#{$y / $x} * 100%);
+	}
+}
+
+@mixin grid-layout($columns, $gutter) {
+	float: left;
+	
+	$columnWidth: 100% / $columns;
+	$gutterPerColumn: ($columns - 1) * $gutter / $columns;
+	width: calc(#{$columnWidth} - #{$gutterPerColumn}px);
+	margin-bottom: #{$gutter}px;
+	margin-right: #{$gutter}px;
+
+	&:nth-child(#{$columns}n+#{$columns}) {
+		margin-right: 0;
+	}
+}
+
+// $columns should be n number of columns, i.e. 1, 2, 3, etc.
+// $gutter is the desired gutter size in px, i.e. 30
+@mixin grid($columns, $gutter: 15) {
+	$columnWidth: 100% / $columns;
+	$gutterPerColumn: ($columns - 1) * $gutter / $columns;
+	width: calc(#{$columnWidth} - #{$gutterPerColumn}px);
+	margin-bottom: #{$gutter}px;
+	margin-right: #{$gutter}px;
+
+	&:nth-child(#{$columns}n+#{$columns}) {
+		margin-right: 0;
+	}
+}
+
+@mixin disable-highlight {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

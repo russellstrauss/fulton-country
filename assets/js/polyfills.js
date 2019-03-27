@@ -1,0 +1,44 @@
+module.exports = function () {
+
+	var settings = {
+
+	};
+
+	return {
+
+		init: function () {
+
+			let self = this;
+
+			self.addForEachToNodes();
+			self.addClosest();
+		},
+
+		addForEachToNodes: function () {
+
+			if (window.NodeList && !NodeList.prototype.forEach) {
+				NodeList.prototype.forEach = Array.prototype.forEach;
+			}
+		},
+		
+		addClosest: function() {
+			
+			if (!Element.prototype.matches) {
+				Element.prototype.matches = Element.prototype.msMatchesSelector ||
+					Element.prototype.webkitMatchesSelector;
+			}
+			
+			if (!Element.prototype.closest) {
+				Element.prototype.closest = function (s) {
+					var el = this;
+			
+					do {
+						if (el.matches(s)) return el;
+						el = el.parentElement || el.parentNode;
+					} while (el !== null && el.nodeType === 1);
+					return null;
+				};
+			}
+		}
+	};
+};
