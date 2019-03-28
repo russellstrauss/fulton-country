@@ -25,7 +25,8 @@
 			
 			let self = this;
 		
-			let endpoint = location.protocol + '//' + window.location.host + '/assets/js/vue/src/components/Footer/FooterData.json';
+			let endpointID = this.$el.parentElement.getAttribute('data-endpoint-id');
+			let endpoint = location.protocol + '//' + window.location.host + '/assets/js/vue/src/components/Footer/' + endpointID + '.json';
 
 			axios.get(endpoint).then(function(response) {
 				

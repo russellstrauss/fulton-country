@@ -16,11 +16,11 @@ var htmlbeautify = require('gulp-html-beautify');
 var uglify = require('gulp-uglify');
 
 gulp.task('sass', function () {
-	return gulp.src('./assets/sass/**/main.scss')
+	return gulp.src('./assets/sass/base/_base.scss')
 	.pipe(sourcemaps.init())
 		.pipe(sass().on('error', sass.logError)) // .on('error', sass.logError) prevents gulp from crashing when saving a typo or syntax error
 	.pipe(sourcemaps.write())
-	.pipe(gulp.dest('./assets/sass'))
+	.pipe(gulp.dest('./assets/sass/base'))
 	.pipe(browserSync.stream()); // causes injection of styles on save
 });
 
@@ -85,38 +85,10 @@ gulp.task('watch', function() {
 		gulp.start('sass');
 	});
 	
-	watch(['!./assets/js/bundle.js', '!./assets/js/vue/*', './assets/js/vue/dist', './assets/js/*.js', './assets/js/components/*.js'], function() {
+	watch(['!./assets/js/bundle.js', '!**/node_modules', './assets/js/vue/dist', './assets/js/*.js', './assets/js/components/*.js'], function() {
 		gulp.start('javascript');
 	});
-	
-	// watch('./mockup/**/*.njk', function() {
-	// 	gulp.start('buildHTML');
-	// });
-	
-	// When modifying Vue files, cd to './assets/js/vue/' and run 'npm build serve', then start gulp build.
-	// This will build the Vue components on save and trigger the full app to refresh.
-	watch('./assets/js/vue/dist', function() {
-		gulp.start('javascript');
-	});
-});
-
-// Building out prototype using partials
-gulp.task('buildHTML', function() {
-	
-	var formattingOptions = {
-		"indent_with_tabs": true,
-		"preserve_newlines": true,
-		"max_preserve_newlines": 1
-	};
-	
-	return gulp.src('./mockup/templates/pages/**/*.+(html|njk)')
-		.pipe(nunjucksRender({
-			path: ['./']
-		}))
-		.pipe(htmlbeautify(formattingOptions))
-		.pipe(gulp.dest('mockup/output'))
-		.pipe(browserSync.stream());
 });
 
 // Default Task
-gulp.task('default', ['buildHTML', 'vendors', 'javascript', 'validateJS', 'sass', 'watch', 'sync']);
+gulp.task('default', ['vendors', 'javascript', 'validateJS', 'sass', 'sync', 'watch']);
