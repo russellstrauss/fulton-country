@@ -16,7 +16,7 @@ var htmlbeautify = require('gulp-html-beautify');
 var uglify = require('gulp-uglify');
 
 gulp.task('sass', function () {
-	return gulp.src('./assets/sass/base/_base.scss')
+	return gulp.src('./assets/sass/base/base.scss')
 	.pipe(sourcemaps.init())
 		.pipe(sass().on('error', sass.logError)) // .on('error', sass.logError) prevents gulp from crashing when saving a typo or syntax error
 	.pipe(sourcemaps.write())
