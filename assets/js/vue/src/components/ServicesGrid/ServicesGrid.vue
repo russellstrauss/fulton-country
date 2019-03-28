@@ -19,6 +19,8 @@
 				</li>
 			</ul>
 			
+			<a class="button-primary" :href="viewMoreLink">{{ viewMoreText }}</a>
+			
 		</div>
 		
 	</div>
@@ -65,26 +67,40 @@
 
 <style lang="scss" scoped>
 	
-	.subtitle {
-		text-align: center;
-	}
-	
-	.title {
-		text-align: center;
-	}
 	
 	.services-grid {
+		
+		.container {
+			padding: 0;
+		}
+		
+		.subtitle {
+			color: $color-burnt-sienna;
+			text-align: center;
+			margin-bottom: 0;
+		}
+		
+		.title {
+			text-align: center;
+		}
 		
 		.services {
 			padding: 0;
 			list-style-type: none;
-			display: flex;
-			flex-wrap: wrap;
+			
+			@include tablet {
+				display: flex;
+				flex-wrap: wrap;
+			}
 			
 			li {
-				@include grid(3, 30);
 				@include card;
 				padding: 20px;
+				margin-bottom: 30px;
+				
+				@include tablet {
+					@include grid(3, 30);
+				}
 				
 				header {
 					border-bottom: 1px solid $color-alto;
@@ -112,6 +128,11 @@
 					}
 				}
 			}
+		}
+		
+		.button-primary {
+			display: table;
+			margin: 0 auto;
 		}
 	}
 	
