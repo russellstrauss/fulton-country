@@ -1,3 +1,43 @@
 {
-	"title": "UtilityNav"
+	"nav": [
+		{
+			"linkText": "Payments",
+			"linkURL": "/"
+		},{
+			"linkText": "Jobs",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "News",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Calendar",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Maps",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Customer Service",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Watch FGTV",
+			"linkURL": "/"
+		}
+	],
+	"languages": [
+		{
+			"flagIcon": "",
+			"languageCode": "en_US",
+			"displayName": "EN"
+		},
+		{
+			"flagIcon": "",
+			"languageCode": "es_ES",
+			"displayName": "SPAN"
+		}
+	]
 }

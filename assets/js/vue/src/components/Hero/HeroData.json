@@ -1,3 +1,18 @@
 {
-	"title": "Hero"
+	"slides": [
+		{
+			"id": "0000-0000-0000-0001",
+			"image": "https://picsum.photos/1920/1080",
+			"subtitle": "Lorem Ipsum",
+			"title": "Dolor Sit Amet Do Et",
+			"caption": "Lorem ipsum dolor sit amet, risus ipsum risus lorem."
+		},
+		{
+			"id": "0000-0000-0000-0002",
+			"image": "https://picsum.photos/1920/1081",
+			"subtitle": "Lorem Ipsum",
+			"title": "Dolor Sit Amet Do Et",
+			"caption": "Lorem ipsum dolor sit amet, risus ipsum risus lorem."
+		}
+	]
 }

@@ -1,3 +1,111 @@
 {
-	"title": "News"
+	"subtitle": "Your County's",
+	"title": "News & Info",
+	"newsItems": [
+		{
+			"id": "0000-0000-000-0001",
+			"date": "2019-02-14T10:00:00-04:00",
+			"photo": "",
+			"title": "Lorem Ipsum Dolor Sit Amet, Integer Risus Integer Placerat",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod metus orci, ac tincidunt dolor fermentum vel. Ut consectetur libero a lectus gravida, quis vehicula arcu faucibus. Nam id nulla vel arcu consequat pellentesque ac tristique eros.",
+			"tags": [
+				{
+					"id": "000-0000-000-0001",
+					"displayName": "Tag Name Here"
+				},
+				{
+					"id": "000-0000-000-0002",
+					"displayName": "Tag 2"
+				}
+			],
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-000-0002",
+			"date": "2019-01-28T10:00:00-04:00",
+			"photo": "",
+			"title": "Upcoming News Headlin Here: Lorem Ipsum Dolor",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod metus orci, ac tincidunt dolor fermentum vel. Ut consectetur libero a lectus gravida, quis vehicula arcu faucibus. Nam id nulla vel arcu consequat pellentesque ac tristique eros.",
+			"tags": [
+				{
+					"id": "000-0000-000-0001",
+					"displayName": "Tag Name Here"
+				},
+				{
+					"id": "000-0000-000-0003",
+					"displayName": "Example of a Super Long Tag Name"
+				}
+			],
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-000-0003",
+			"date": "2019-01-28T10:00:00-04:00",
+			"photo": "",
+			"title": "Lorem Ipsum Dolor Sit Amet, Integer Risus Integer Placerat",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod metus orci, ac tincidunt dolor fermentum vel. Ut consectetur libero a lectus gravida, quis vehicula arcu faucibus. Nam id nulla vel arcu consequat pellentesque ac tristique eros.",
+			"tags": [
+				{
+					"id": "000-0000-000-0004",
+					"displayName": "Medium Tag Name"
+				}
+			],
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-000-0004",
+			"date": "2019-01-28T10:00:00-04:00",
+			"photo": "",
+			"title": "Lorem Ipsum Dolor Sit Amet, Integer Risus Integer Placerat",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod metus orci, ac tincidunt dolor fermentum vel. Ut consectetur libero a lectus gravida, quis vehicula arcu faucibus. Nam id nulla vel arcu consequat pellentesque ac tristique eros.",
+			"tags": [
+				{
+					"id": "000-0000-000-0001",
+					"displayName": "Tag Name Here"
+				},
+				{
+					"id": "000-0000-000-0002",
+					"displayName": "Tag 2"
+				}
+			],
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-000-0005",
+			"date": "2019-02-08T10:00:00-04:00",
+			"photo": "",
+			"title": "Lorem Ipsum Dolor Sit Amet, Integer Risus Integer Placerat",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod metus orci, ac tincidunt dolor fermentum vel. Ut consectetur libero a lectus gravida, quis vehicula arcu faucibus. Nam id nulla vel arcu consequat pellentesque ac tristique eros.",
+			"tags": [
+				{
+					"id": "000-0000-000-0001",
+					"displayName": "Tag Name Here"
+				},
+				{
+					"id": "000-0000-000-0002",
+					"displayName": "Tag 2"
+				}
+			],
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		}
+	],
+	"cta": {
+		"linkText": "See All News",
+		"linkURL": "/"
+	}
 }

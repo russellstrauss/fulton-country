@@ -75,6 +75,8 @@
 			"hoverBackgroundImage": "https://picsum.photos/300/300"
 		}
 	],
-	"viewMoreText": "View All Services",
-	"viewMoreLink": "/"
+	"viewMoreLink": {
+		"linkText": "View All Services",
+		"linkURL": "/"
+	}
 }

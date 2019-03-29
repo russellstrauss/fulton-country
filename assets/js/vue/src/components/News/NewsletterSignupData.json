@@ -1,3 +1,49 @@
 {
-	"title": "NewsletterSignup"
+	"subtitle": "Sign Up &",
+	"title": "Stay Connected",
+	"body": "Subscribe to our newsletter and stay up to date on all Fulton County news and events.",
+	"forms": [
+		{
+			"formGroup": [
+				{
+					"label": "First Name",
+					"inputType": "text",
+					"placeholder": "First Name"
+				},
+				{
+					"label": "Last Name",
+					"inputType": "text",
+					"placeholder": "Last Name"
+				}
+			]
+		},
+		{
+			"formGroup": [
+				{
+					"label": "Email Address",
+					"inputType": "email",
+					"placeholder": "Email Address",
+					"required": true,
+					"validationMessage": "Please Enter a Valid Email Address"
+				}
+			]
+		},
+		{
+			"formGroup": [
+				{
+					"label": "Security",
+					"required": true,
+					"recpatcha": ""
+				}
+			]
+		},
+		{
+			"formGroup": [
+				{
+					"inputType": "submit",
+					"value": "Sign Up"
+				}
+			]
+		}
+	]
 }

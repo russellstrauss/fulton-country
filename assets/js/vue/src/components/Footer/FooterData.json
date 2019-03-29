@@ -1,3 +1,94 @@
 {
-	"title": "Footer"
+	"contact": {
+		"logo": "",
+		"title": "Contact Us",
+		"address": "141 Pryor St. SW <br>Atlanta, GA 30303",
+		"phone": "404-612-4000",
+		"email": "customerservice@fultoncountyga.gov"
+	},
+	"menuItems": [
+		{
+			"linkText": "Locations & Directions",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Cities of Fulton County",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "BOC Meetings",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Contacts & Phone Numbers",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Contact Us",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Departments",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Emergency Preparedness",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Language",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Terms & Conditions",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Jury Duty",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "FAQ's",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Public Notices",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Strategic Plan",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Open Records Request",
+			"linkURL": "/"
+		},
+		{
+			"linkText": "Employees",
+			"linkURL": "/"
+		}
+	],
+	"social": [
+		{
+			"icon": "",
+			"linkURL": ""
+		},
+		{
+			"icon": "",
+			"linkURL": ""
+		},
+		{
+			"icon": "",
+			"linkURL": ""
+		},
+		{
+			"icon": "",
+			"linkURL": ""
+		},
+		{
+			"icon": "",
+			"linkURL": ""
+		}
+	],
+	"legal": "&copy; Fulton County Government"
 }

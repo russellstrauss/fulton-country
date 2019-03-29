@@ -1,3 +1,17 @@
 {
-	"title": "DistrictLocator"
+	"title": "What is my district?",
+	"body": "<p>Enter your address to find out which district you live in.</p>",
+	"form": {
+		"placeholderText": "Enter Your Address",
+		"icon": ""
+	},
+	"summary": {
+		"title": "Fulton County Districts",
+		"body": "Fulton County is in the north-central portion of Georgia. As of 2017 estimates, the population was 1,041,423, making it the state's most populous county and its only one with over one million inhabitants.",
+		"cta": {
+			"linkText": "Learn More",
+			"linkURL": "/"
+		}
+	},
+	"map": ""
 }

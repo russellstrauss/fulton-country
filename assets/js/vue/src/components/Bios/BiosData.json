@@ -1,3 +1,88 @@
 {
-	"title": "Bios"
+	"subtitle": "Meet Your",
+	"title": "Commissioners",
+	"summary": {
+		"title": "Your Commissioners At Work",
+		"body": "The Fulton County Board of Commissioners includes seven members, with six district seats and the Chairman serving all of Fulton County, including 15 cities. The Board of Commissioners meet twice a month, on the first and third Wednesdays at 10 a.m. Meetings are liv-streamed via FGTV and may be viewed on this website.",
+		"cta": {
+			"linkText": "Read More",
+			"linkURL": "/"
+		}
+	},
+	"bios": [
+		{
+			"id": "0000-0000-0000-0001",
+			"photo": "/",
+			"name": "Robb Pitts",
+			"position": "Chairman",
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0002",
+			"photo": "/",
+			"name": "Liz Hausmann",
+			"position": "District 1",
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0003",
+			"photo": "/",
+			"name": "Bob Ellis",
+			"position": "District 2",
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0004",
+			"photo": "/",
+			"name": "Lee Morris",
+			"position": "Vice Chairman, District 3",
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0005",
+			"photo": "/",
+			"name": "Natalie Hall",
+			"position": "District 4",
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0006",
+			"photo": "/",
+			"name": "Marvin Arrvington Jr.",
+			"position": "District 5",
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0007",
+			"photo": "/",
+			"name": "Emma I. Darnell",
+			"position": "District 6",
+			"cta": {
+				"linkText": "Read More",
+				"linkURL": "/"
+			}
+		}
+	],
+	"cta": {
+		"linkText": "Visit Commissioner Page",
+		"linkURL": "/"
+	}
 }

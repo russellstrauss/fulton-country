@@ -106,6 +106,12 @@
 	}
 }
 
+@mixin background-cover {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
 // $columns should be n number of columns, i.e. 1, 2, 3, etc.
 // $gutter is the desired gutter size in px, i.e. 30
 @mixin grid($columns, $gutter: 15) {

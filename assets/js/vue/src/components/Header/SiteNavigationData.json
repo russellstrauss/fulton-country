@@ -1,3 +1,334 @@
 {
-	"title": "SiteNavigation"
+	"siteNavigation": {
+		"logo": {
+			"image": "",
+			"linkURL": ""
+		},
+		"menu": [
+			{
+				"linkText": "Services",
+				"linkURL": "/",
+				"seondaryMenuPageLink": {
+					"linkText": "View All Services",
+					"linkURL": "/"
+				},
+				"secondaryMenu": [
+					{
+						"title": "License & Certificates",
+						"links": [
+							{
+								"linkText": "Birth & Death Certificates",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Marriage License",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Weapons & Carry License",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Passports",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Notary",
+								"linkURL": ""
+							}
+						],
+						"seeAllText": "See All",
+						"seeAllLink": "/"
+					},
+					{
+						"title": "Libraries & Arts",
+						"links": [
+							{
+								"linkText": "Libraries & Library Events",
+								"linkURL": ""
+							},
+							{
+								"linkText": "MArts Centers & Art Events",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Filming in Fulton County",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Cooperative Extension",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Calendar",
+								"linkURL": ""
+							}
+						],
+						"seeAllText": "See All",
+						"seeAllLink": "/"
+					},
+					{
+						"title": "Non-Profits",
+						"links": [
+							{
+								"linkText": "Community Service Programs",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Contracts for Services",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Community Partners",
+								"linkURL": ""
+							}
+						]
+					},
+					{
+						"title": "Animal Services",
+						"links": [
+							{
+								"linkText": "Report a Stray",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Pet Registration",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Adoption/Foster",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Rescue Groups",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Vaccinations & Spaying/Neutering",
+								"linkURL": ""
+							}
+						],
+						"seeAllText": "See All",
+						"seeAllLink": "/"
+					},
+					{
+						"title": "Health Services",
+						"links": [
+							{
+								"linkText": "Immunizations",
+								"linkURL": ""
+							},
+							{
+								"linkText": "WIC",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Behavioral Health & Development Disabilities",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Restaurant Inspections",
+								"linkURL": ""
+							}
+						],
+						"seeAllText": "See All",
+						"seeAllLink": "/"
+					},
+					{
+						"title": "Youth",
+						"links": [
+							{
+								"linkText": "Library Arts & 4H Programming",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Youth Summer Programs",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Youth Commission",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Internships",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Notary",
+								"linkURL": "Workforce Training & Rescue"
+							}
+						]
+					},
+					{
+						"title": "seniors",
+						"links": [
+							{
+								"linkText": "Senipr Centers",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Home Repair Services",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Transportation",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Meals On Wheels",
+								"linkURL": ""
+							},
+							{
+								"linkText": "STARLine Info Hotline",
+								"linkURL": ""
+							}
+						],
+						"seeAllText": "See All",
+						"seeAllLink": "/"
+					},
+					{
+						"title": "Water",
+						"links": [
+							{
+								"linkText": "PayYour Water Bill",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Establish New Water Service",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Emergency Water/Sewer Repairs",
+								"linkURL": ""
+							},
+							{
+								"linkText": "water conservation",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Water Quality",
+								"linkURL": ""
+							}
+						]
+					},
+					{
+						"title": "Voting & Elections",
+						"links": [
+							{
+								"linkText": "Voter Registration",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Find My Polling Site",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Absentee Voting",
+								"linkURL": ""
+							},
+							{
+								"linkText": "PassporVoting Calendar",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Voting Education",
+								"linkURL": ""
+							}
+						],
+						"seeAllText": "See All",
+						"seeAllLink": "/"
+					},
+					{
+						"title": "Public Safety",
+						"links": [
+							{
+								"linkText": "Police/Sheriff & Marshall Services",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Emergency Preparedness/Disaster Relief",
+								"linkURL": ""
+							},
+							{
+								"linkText": "911 Emergency Serivces",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Medical Examiner",
+								"linkURL": ""
+							}
+						],
+						"seeAllText": "See All",
+						"seeAllLink": "/"
+					},
+					{
+						"title": "Courts",
+						"links": [
+							{
+								"linkText": "About Fulton County Courts",
+								"linkURL": ""
+							},
+							{
+								"linkText": "File Your Case In Court",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Jury Duty",
+								"linkURL": ""
+							}
+						]
+					},
+					{
+						"title": "Other",
+						"links": [
+							{
+								"linkText": "Open Records Request",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Indigent Burials",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Title IV",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Veteran Resources",
+								"linkURL": ""
+							},
+							{
+								"linkText": "Trash Services For Cities",
+								"linkURL": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"linkText": "Get Involved",
+				"linkURL": "/"
+			},
+			{
+				"linkText": "Property & Vehicles",
+				"linkURL": "/"
+			},
+			{
+				"linkText": "Business Services",
+				"linkURL": "/"
+			},
+			{
+				"linkText": "Courts",
+				"linkURL": "/"
+			},
+			{
+				"linkText": "Commissioners",
+				"linkURL": "/"
+			},
+			{
+				"linkText": "Inside Fulton County",
+				"linkURL": "/"
+			}
+		]
+	}
 }

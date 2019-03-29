@@ -2,8 +2,10 @@
 
 	<div class="services-grid container-fluid">
 		
-		<h5 class="subtitle">{{ subtitle }}</h5>
-		<h2 class="title">{{ title }}</h2>
+		<header>
+			<h5 class="subtitle">{{ subtitle }}</h5>
+			<h2 class="title">{{ title }}</h2>
+		</header>
 		
 		<div class="container">
 			
@@ -19,7 +21,7 @@
 				</li>
 			</ul>
 			
-			<a class="button-primary" :href="viewMoreLink">{{ viewMoreText }}</a>
+			<a class="button-primary" :href="viewMoreLink.linkURL">{{ viewMoreLink.linkText }}</a>
 			
 		</div>
 		
@@ -69,19 +71,39 @@
 	
 	
 	.services-grid {
+		padding: 60px $gutters;
 		
 		.container {
 			padding: 0;
 		}
 		
-		.subtitle {
-			color: $color-burnt-sienna;
+		header {
+			background-color: white;
+			padding: 30px;
+			display: table;
+			margin: auto;
 			text-align: center;
-			margin-bottom: 0;
-		}
-		
-		.title {
-			text-align: center;
+			margin-bottom: 20px;
+			
+			.subtitle {
+				color: $color-burnt-sienna;
+				text-align: center;
+				margin-bottom: 0;
+			}
+			
+			.title {
+				text-align: center;
+				margin-bottom: 0;
+				
+				&:after {
+					content: '';
+					border-bottom: 4px solid $color-viking;
+					position: absolute;
+					width: 100%;
+					left: 0;
+					z-index: -100;
+				}
+			}
 		}
 		
 		.services {

@@ -2,7 +2,37 @@
 
 	<div class="upcoming-events container-fluid">
 		
-		{{ title }}
+		<header>
+			<h5 class="subtitle">{{ subtitle }}</h5>
+			<h2 class="title">{{ title }}</h2>
+		</header>
+		
+		<div class="event-grid">
+			<div class="event featured-event">
+				Featured Event
+			</div>
+			<div class="event wide">
+				Wide
+			</div>
+			<div class="event wide">
+				Wide
+			</div>
+			<div class="event wide">
+				Wide
+			</div>
+			<div class="event single">
+				Single
+			</div>
+			<div class="event single">
+				Single
+			</div>
+			<div class="event single">
+				Single
+			</div>
+			<div class="event single">
+				Single
+			</div>
+		</div>
 		
 	</div>
 	
@@ -17,7 +47,8 @@
 		
 		data() {
 			return {
-				title: ""
+				title: "",
+				subtitle: ""
 			}
 		},
 		
@@ -32,6 +63,7 @@
 			axios.get(endpoint).then(function(response) {
 				
 				self.title = response.data.title;
+				self.subtitle = response.data.subtitle;
 			})
 			.catch(function (error) {
 				console.log(error);
@@ -40,3 +72,7 @@
 	}
 	
 </script>
+
+<style lang="scss" scoped>
+	
+</style>

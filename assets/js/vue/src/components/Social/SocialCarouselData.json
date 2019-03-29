@@ -1,3 +1,75 @@
 {
-	"title": "SocialCarousel"
+	"subtitle": "Scroll Through &",
+	"title": "Stay Connected",
+	"socialItems": [
+		{
+			"id": "0000-0000-0000-0001",
+			"photo": "",
+			"icon": "",
+			"handle": "@fultoninfo",
+			"caption": "Public Works asked people to write lorem ipsum dolor sit amet...",
+			"cta": {
+				"linkText": "",
+				"linkURL": "See Post"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0002",
+			"photo": "",
+			"icon": "",
+			"handle": "@fultoninfo",
+			"caption": "Lorem ipsum dolor sit amet, orci lectus integer, pellentesque",
+			"cta": {
+				"linkText": "",
+				"linkURL": "See Post"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0003",
+			"photo": "",
+			"icon": "",
+			"handle": "@fultoninfo",
+			"caption": "Lorem ipsum dolor sit amet, orci lectus integer, pellentesque",
+			"cta": {
+				"linkText": "",
+				"linkURL": "See Post"
+			}
+		},
+		{
+			"id": "0000-0000-0000-0004",
+			"photo": "",
+			"icon": "",
+			"handle": "@fultoninfo",
+			"caption": "Lorem ipsum dolor sit amet, orci lectus integer, pellentesque",
+			"cta": {
+				"linkText": "",
+				"linkURL": "See Post"
+			}
+		}
+	],
+	"socialLinks": {
+		"title": "Follow Us:",
+		"items": [
+			{
+				"icon": "",
+				"linkURL": "/"
+			},
+			{
+				"icon": "",
+				"linkURL": "/"
+			},
+			{
+				"icon": "",
+				"linkURL": "/"
+			},
+			{
+				"icon": "",
+				"linkURL": "/"
+			},
+			{
+				"icon": "",
+				"linkURL": "/"
+			}
+		]
+	}
 }
